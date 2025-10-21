@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
 // Sam Robichaud NSCC
 
 public class TriggerSetActive : MonoBehaviour
@@ -11,6 +12,7 @@ public class TriggerSetActive : MonoBehaviour
     void OnTriggerEnter(Collider other)
     {
         targetObject.SetActive(false);
+ 
     }
 
     void OnTriggerExit(Collider other)
